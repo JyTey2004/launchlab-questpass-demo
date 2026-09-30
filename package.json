@@ -4,8 +4,19 @@
   "private": true,
   "type": "module",
   "description": "An interactive event passport built to test participation and feedback with LaunchLab.",
-  "engines": { "node": ">=22.12.0" },
-  "scripts": { "dev": "vite --host 127.0.0.1 --port 4316", "build": "vite build", "preview": "vite preview --host 127.0.0.1 --port 4316", "test": "node --test test/*.test.mjs" },
-  "dependencies": { "qrcode": "1.5.4" },
-  "devDependencies": { "vite": "8.3.1" }
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4316",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4316",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "vite": "8.3.1"
+  }
 }
